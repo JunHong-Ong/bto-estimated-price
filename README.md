@@ -9,7 +9,7 @@
 
  Therefore, a regression model has been developed to predict the estimated prices of such BTO sales launch. The model was trained on estimated BTO prices, provided by HDB, from 2019 to 2022 ($n$=241). Using K-folds cross-validation, the model achieved a RMSE score of 53.953 (SD: 17.221).
 
-![training](demo\training.png)
+![training](demo/training.png)
 
 ## Comparison of Results
  For further evaluation, the model was used to predict BTO sales launch prices for the Feb 2023 and May 2023 BTO sales launch.
@@ -55,7 +55,7 @@
  | Ulu Pandan Glades | Queenstown | 3-room | $370,000 - $458,000 | $372,000 - $498,000 |
  | Ulu Pandan Glades | Queenstown | 4-room | $518,000 - $653,000 | $541,000 - $711,000 |
 
- ![testing](demo\testing.png)
+ ![testing](demo/testing.png)
 
 ## Discussion
  From the comparison on results, we can see that the model generally performs well for BTO sites with frequent activity in the past few years (Tengah and Kallang / Whampoa). However, for BTO sites which did not appear in the training set, such as Bedok and Serangoon, the model's predictions differ quite substantailly from SRX's estimates. However, this issue can likely be alleviated by the following:
