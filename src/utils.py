@@ -41,8 +41,8 @@ def preprocess_dataset(train: pd.DataFrame,
     combined = pd.concat([train, test], ignore_index=True)
 
     # Preprocessing
-    n_lat_bins = 3 # 10
-    n_lng_bins = 4 # 5
+    n_lat_bins = 3
+    n_lng_bins = 4
 
     lat_labels = [f"Lat{i}" for i in range(n_lat_bins)]
     lng_labels = [f"Lng{i}" for i in range(n_lng_bins)]
